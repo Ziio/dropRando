@@ -1,6 +1,16 @@
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+#appBox {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
 .container {
     position: relative;
     height: 900px;
+    background-color: rgba(0, 0, 0, 0);
 }
 .box {
     margin: 0;
@@ -12,9 +22,23 @@
 }
 #randomButton {
     text-align: center;
+    font-family: 'Metal Mania', cursive;
+font-family: 'Permanent Marker', cursive;
 }
 
 #randomPlace {
     text-align: center;
+    color: lime;
+    font-family: 'Metal Mania', cursive;
+}
+
+#randoModalBox {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+
+.modal-body {
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 25px;
 }
 
